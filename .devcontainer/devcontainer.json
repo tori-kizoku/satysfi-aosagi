@@ -1,8 +1,0 @@
-{
-  "name": "satysfi-aosagi",
-  "image": "coinsshinkan23/pamphlet-docker:main",
-  "postCreateCommand": "./.devcontainer/postCreateCommand.sh",
-  "extensions": [
-    "wraikny.wraikny-satysfi-extension"
-  ]
-}
