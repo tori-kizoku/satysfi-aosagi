@@ -1,13 +1,11 @@
 @require: aosagi/aosagi
-%@import: ../src/aosagi
 
-document (|
-  title = {aosagi};
-  author = {momeemt};
-|) '<
-  +chapter {章} <
-    +p {
-      文章
-    }
-  >
+% @import: ../src/aosagi
+document(|
+    title = { aosagi };
+    author = { momeemt };
+|)'<
+    +chapter { 章 } <
+        +p { 文章 }
+    >
 >
